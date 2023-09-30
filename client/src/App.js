@@ -10,10 +10,10 @@ import LandingPage from './scenes/LandingPage/Landingpage';
 import UserSignin from './scenes/Login/Signin';
 import NavBar from './components/Navbar/Navbar';
 import Snackbar from './components/Snackbar/Snackbar';
-import protectedRoutes from './routeProtection/ProtectedRoutes'
-import ProtectedRoute from './routeProtection/ProtectedRoute';
-import publicRoutes from '../src/routes/PublicRoute';
+import protectedRoutes from './routes/ProtectedRoute';
+import publicRoutes from './routes/PublicRoute'
 import ForceRedirect from './routeProtection/ForcedRedirect';
+import ProtectedRoute from './routeProtection/ProtectedRoutes';
 import { setToken, clearToken, isConnected, setUserProfile } from './store/loginedUser'
 
 function App() {
